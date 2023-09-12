@@ -330,7 +330,7 @@ access_path_sankey(data_sampled[data_sampled['vocation_mark']==0]['access_path']
 
 <!DOCTYPE html>
 <html>
-<head>
+<!-- <head>
 <style>
   table {
     border-collapse: collapse;
@@ -344,13 +344,13 @@ access_path_sankey(data_sampled[data_sampled['vocation_mark']==0]['access_path']
   th {
     background-color: #6b8e9c; /* 设置首行背景色为蓝灰色 */
     color: white !important; /* 设置首行文字颜色为白色 */
-    /* font-weight: bold; */
+    font-weight: bold;
   }
   td:first-child {
     font-weight: bold; /* 设置首列文字加粗 */
   }
 </style>
-</head>
+</head> -->
 <body>
 
 <div style="text-align: center;">
@@ -476,9 +476,3 @@ access_path_sankey(data_sampled[data_sampled['vocation_mark']==0]['access_path']
 &emsp;&emsp;度假产品成交人群与单资源产品成交人群的行为轨迹存在较大差异，度假产品成交人群的行为轨迹围绕“度假产品详情页”、“预订流程”、“会员中心”、“通用产品列表”、“Android默认打点”展开，“度假产品详情页”的转化率达96.79%，而单资源产品成交人群的行为轨迹则围绕“单品品类”、“会员中心”、“首页”、“预定流程”、“Android默认打点”展开，“单品品类”的转化率达94.48%，且不涉及度假产品相关的浏览。
 
 <br>
-
-&emsp;&emsp;【附：完整轨迹图】
-<iframe src="D:/cwq/job/画像分析/命中人群行为轨迹图.html" width="100%" height="400px"></iframe>
-<iframe src="D:/cwq/job/画像分析/非命中人群行为轨迹图.html" width="100%" height="400px"></iframe>
-<iframe src="D:/cwq/job/画像分析/度假产品订单人群行为轨迹图.html" width="100%" height="400px"></iframe>
-<iframe src="D:/cwq/job/画像分析/单资源产品订单人群行为轨迹图.html" width="100%" height="400px"></iframe>
